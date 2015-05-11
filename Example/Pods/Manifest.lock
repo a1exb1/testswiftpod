@@ -1,0 +1,27 @@
+PODS:
+  - compresJSON-Pod (0.1.0)
+  - FBSnapshotTestCase (1.8.1)
+  - testswiftpod (0.1.0)
+
+DEPENDENCIES:
+  - compresJSON-Pod (from `https://github.com/a1exb1/compresJSON-Pod.git`)
+  - FBSnapshotTestCase
+  - testswiftpod (from `../`)
+
+EXTERNAL SOURCES:
+  compresJSON-Pod:
+    :git: https://github.com/a1exb1/compresJSON-Pod.git
+  testswiftpod:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  compresJSON-Pod:
+    :commit: 726588f7c518ce8cd2ba628fc85ddc77319625bc
+    :git: https://github.com/a1exb1/compresJSON-Pod.git
+
+SPEC CHECKSUMS:
+  compresJSON-Pod: f225ac311124816c54a66b0c2620d1ab530059ee
+  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
+  testswiftpod: 637eaafcfbf22a4b9701d944282cd3d32cc5a400
+
+COCOAPODS: 0.37.1

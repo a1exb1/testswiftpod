@@ -8,6 +8,8 @@
 
 #import "ABViewController.h"
 
+#import "Compressor.h"
+
 @interface ABViewController ()
 
 @end

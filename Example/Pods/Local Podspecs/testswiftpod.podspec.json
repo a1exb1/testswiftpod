@@ -1,0 +1,25 @@
+{
+  "name": "testswiftpod",
+  "version": "0.1.0",
+  "summary": "A short description of testswiftpod.",
+  "description": "                       An optional longer description of testswiftpod\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/testswiftpod",
+  "license": "MIT",
+  "authors": {
+    "Alex Bechmann": "alex_bechmann@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/a1exb1/testswiftpod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "testswiftpod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

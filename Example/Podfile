@@ -1,10 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'testswiftpod', :exclusive => true do
+    pod "compresJSON-Pod", :git => 'https://github.com/a1exb1/compresJSON-Pod.git'
   pod "testswiftpod", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
+    pod "compresJSON-Pod", :git => 'https://github.com/a1exb1/compresJSON-Pod.git'
   pod "testswiftpod", :path => "../"
 
   pod 'FBSnapshotTestCase'
